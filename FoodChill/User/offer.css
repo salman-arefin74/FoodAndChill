@@ -1,0 +1,30 @@
+﻿#box1 {
+    margin: 150px;
+    width: 1000px;
+    height: 800px;
+    
+}
+
+#b1 {
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+#b1name {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #8e2c2c;
+}
+
+#b1d {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-family: Franklin Gothic Heavy;
+    font-size: 20px;
+    color: white;
+}

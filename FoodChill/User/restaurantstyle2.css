@@ -1,0 +1,167 @@
+﻿#list {
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    background-color: #d3d1d2;
+}
+
+#rname {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+
+#caption {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 140px;
+    left: 450px;
+}
+
+
+
+
+#top {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #0a0a0a;
+}
+
+    #top p {
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        padding: 15px;
+    }
+
+#list ul {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    padding: 70px;
+    text-align: center;
+    list-style-type: none;
+    line-height: 35px;
+}
+
+    #list ul a {
+        color: black;
+        font-family: 'Open+Sans', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+        #list ul a:hover {
+            text-decoration: underline;
+        }
+
+#rbox {
+    background-color: white;
+    width: 800px;
+    height: 220px;
+    border: solid black 1px;
+    position: relative;
+    left: 450px;
+    top: 300px;
+}
+
+#rb1 {
+    position: relative;
+    top: 25px;
+    left: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+#rb1name {
+    position: relative;
+    top: -150px;
+    left: 255px;
+    font-family: Adobe Fan Heiti Std;
+    font-size: 24px;
+    color: black;
+}
+
+#rc {
+    position: relative;
+    top: -150px;
+    left: 255px;
+    font-family: Adobe Fan Heiti Std;
+    font-size: 24px;
+    color: black;
+}
+
+#rb1d {
+    position: relative;
+    top: -190px;
+    left: 255px;
+    font-family: Lucida Sans Unicode;
+    font-size: 18px;
+    color: black;
+}
+
+.cartbutton {
+    width: 120px;
+    padding: 10px;
+    position: relative;
+    top: -210px;
+    left: 255px;
+    border: solid black;
+    font-size: 20px;
+    color: black;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn2 {
+    width: 150px;
+    padding: 15px;
+    position: absolute;
+    top: 170px;
+    left: 450px;
+    border: solid black;
+    font-size: 20px;
+    color: black;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+
+#c1 a {
+    text-decoration: none;
+    width: 130px;
+    padding: 20px;
+    position: relative;
+    top: 170px;
+    left: 255px;
+    border: solid black;
+    font-size: 20px;
+    color: black;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+
+#holder {
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    width: 800px;
+    border: solid black 1px;
+}
+
+.q {
+    position: relative;
+    left: 240px;
+    top: -120px;
+}

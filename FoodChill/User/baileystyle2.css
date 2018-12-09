@@ -1,0 +1,109 @@
+﻿#choose {
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+
+#bailey {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+#banani {
+    position: absolute;
+    top: 300px;
+    left: 750px;
+}
+
+    #bailey:hover {
+        opacity: 0.7;
+        filter: alpha(opacity=50);
+    }
+
+#bfcname {
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 48px;
+    position: absolute;
+    top: 609px;
+    left: 410px;
+}
+
+    #bfcname:hover {
+        color: #3197d1;
+    }
+
+#boomersname:hover {
+    color: #3197d1;
+}
+
+#dhanname:hover {
+    color: #3197d1;
+}
+
+#gulshanname:hover {
+    color: #3197d1;
+}
+
+#uttaraname:hover {
+    color: #3197d1;
+}
+
+#khilname:hover {
+    color: #3197d1;
+}
+
+#view1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 480px;
+    left: 300px;
+    width: 130px;
+    height: 50px;
+    background-color: #CCC;
+    background-repeat: no-repeat;
+    border: solid black;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+
+    #banani:hover {
+        opacity: 0.7;
+        filter: alpha(opacity=50);
+    }
+
+#boomersname {
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 48px;
+    position: absolute;
+    top: 609px;
+    left: 935px;
+}
+
+#view2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 490px;
+    left: 880px;
+    width: 130px;
+    height: 50px;
+    background-color: #CCC;
+    background-repeat: no-repeat;
+    border: solid black;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+

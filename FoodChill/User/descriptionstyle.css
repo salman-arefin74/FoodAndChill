@@ -1,0 +1,64 @@
+﻿#caption9 {
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+
+#rbox6 {
+    background-color: white;
+    width: 800px;
+    height: 220px;
+    border: solid black 1px;
+    position: relative;
+    left: 300px;
+    top: 300px;
+}
+
+#rb6 {
+    position: relative;
+    top: 25px;
+    left: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+#rb6name {
+    position: relative;
+    top: -150px;
+    left: 255px;
+    font-family: Adobe Fan Heiti Std;
+    font-size: 24px;
+    color: black;
+
+}
+
+#rc6 {
+    position: relative;
+    top: -150px;
+    left: 255px;
+    font-family: Adobe Fan Heiti Std;
+    font-size: 24px;
+    color: black;
+}
+
+#rb6d {
+    position: relative;
+    top: -190px;
+    left: 255px;
+    font-family: Lucida Sans Unicode;
+    font-size: 18px;
+    color: black;
+}
+
+.cart {
+    position: absolute;
+    top: 600px;
+    left: 650px;
+    width: 100px;
+    height: 50px;
+    background-color: #cac9c9;
+    color: black;
+}

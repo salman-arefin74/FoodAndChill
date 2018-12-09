@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/User/User_master.master.cs" Inherits="User_User_master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server"> 
+    <title>Food & Chill</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet2.css">
+    <link rel="stylesheet" type="text/css" href="offer2.css">
+    <link rel="stylesheet" type="text/css" href="areastyle2.css">
+    <link rel="stylesheet" type="text/css" href="baileystyle2.css">
+    <link rel="stylesheet" type="text/css" href="dhanstyle2.css">
+    <link rel="stylesheet" type="text/css" href="banani2.css">
+    <link rel="stylesheet" type="text/css" href="khilstyle2.css">
+    <link rel="stylesheet" type="text/css" href="uttarastyle2.css">
+    <link rel="stylesheet" type="text/css" href="gulshanstyle2.css">
+    <link rel="stylesheet" type="text/css" href="restaurantstyle2.css">
+    <link rel="stylesheet" type="text/css" href="searchstyle.css">
+    <link rel="stylesheet" type="text/css" href="reviewstyle.css">
+    <link rel="stylesheet" type="text/css" href="descriptionstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" type="text/css" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="js/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.jcarousel.pack.js" type="text/javascript"></script>
+    <script src="js/jquery-func.js" type="text/javascript"></script>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+ 
+
+<!-- Header -->
+
+         <!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="Opener.aspx" class="w3-bar-item w3-button w3-teal">Food & Chill</a>
+  <a href="About.aspx" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+  <a href="../Managers/ManagerRegister.aspx" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Managers</a>
+  <a href="Areas.aspx" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Areas</a>
+  <a href="Offers.aspx" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Offers</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Profile <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="MyCart.aspx" class="w3-bar-item w3-button">Cart</a>
+      <a href="logout.aspx" class="w3-bar-item w3-button">Log Out</a>
+    </div>
+  </div>
+ </div>
+    <div id="content3">
+        <asp:TextBox id="search" runat="server" CssClass="txtbox"></asp:TextBox>
+            <asp:Button id="sbut" runat="server" Text="Search" CssClass="btn" OnClick="sbut_Click" />
+    </div>
+    </div>
+   
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

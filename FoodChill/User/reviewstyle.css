@@ -1,0 +1,124 @@
+﻿#whole{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 100%;
+    margin-left: 15px;
+
+}
+
+#rating {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 46px;
+    color: black;
+}
+
+.giveRate{
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    width: 500px;
+    height: 45px;
+}
+
+#rateDiv{
+    position: absolute;
+    top: 182px;
+    left: 220px;
+    border: 1px solid black;
+    width: 100px;
+}
+#rateDiv p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+#review {
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 46px;
+    color: black;
+}
+
+.giveReview {
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    width: 800px;
+    height: 300px;
+}
+
+.revBtn{
+    position:absolute;
+    top: 1000px;
+    left: 800px;
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+#section {
+    position: absolute;
+    top: 800px;
+    left: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 46px;
+    color: black;
+}
+
+#sectiondiv {
+    position: absolute;
+    top: 900px;
+
+    border: 1px solid black;
+    width: 1200px;
+    
+}
+
+#rbox9 {
+    background-color: white;
+    width: 800px;
+    
+    position: relative;
+    left: 30px;
+    top: 1000px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+#rb9name {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+#rc9 {
+    position: relative;
+    top: -5px;
+    left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+#rb9d {
+    position: relative;
+    top: -50px;
+    left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    color: black;
+}
